@@ -33,6 +33,8 @@ github_username:  jekyll
 theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+github: [metadata]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
