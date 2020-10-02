@@ -28,7 +28,7 @@ about_profile_image: images/profile.JPEG
 about_content: | # this will include new lines to allow paragraphs
    I am a flutter developer, with experience developing hybrid mobile applications. I am fueled by my passion for understanding new technologies out there. I consider myself a ‘forever student,’ eager to both build on my academic foundations in computer science and technology and stay in tune with the technologies through continued coursework.
    
-   I believe mindfulness in the workplace is key to success - a tenet I live out through my interests in yoga, meditation, gardening, and painting. Madison is currently working as flutter developer.
+   I believe mindfulness in the workplace is key to success - a tenet I live out through my interests in yoga, meditation, gardening, and painting. I am currently working as flutter developer.
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
