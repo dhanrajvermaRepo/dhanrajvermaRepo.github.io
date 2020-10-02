@@ -1,0 +1,10 @@
+# Project template
+- layout: top-middle
+  name: Dialog4search
+  link: https://pub.dev/packages/dialog4search
+  github: https://github.com/dhanrajvermaRepo/dialog4search
+  quote: >
+    This is a dart package for flutter developers. Using this package user can search an item in a given list of any type(which is supported by dart).
+    You can select multiple item from the list.
+  description: | # this will include new lines to allow paragraphs
+    This is my first package which I published to [pub.](https://pub.dev/)

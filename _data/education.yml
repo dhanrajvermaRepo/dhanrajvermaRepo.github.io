@@ -1,0 +1,13 @@
+# Education Template
+- layout: left
+  name: Madan Mohan Malaviya Institute of Technology
+  link: http://www.mmmut.ac.in/
+  dates: 2016 - 2019
+  qualification: Master of Computer Applications
+  quote: >
+    Madan Mohan Malaviya University of Technology, Gorakhpur has been established in year 2013 by the Government of Uttar Pradesh in the form of a non-affiliating, teaching and research University after reconstituting the Madan Mohan Malaviya Engineering College, Gorakhpur which was established in 1962.
+
+    Fifty batches of students have entered its portals to emerge after four years of rigorous education under the tutelage of some of the most venerable teachers, engineers ready to face the world and create new worlds.
+  description: | # this will include new lines to allow paragraphs
+    ### VISION
+     To facilitate and promote studies, research, technology incubation, product innovation and extension work in Science, Technology and Management Education, and also to achieve excellence in higher technical education.

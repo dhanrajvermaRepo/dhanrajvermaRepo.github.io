@@ -1,57 +1,84 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Site
+repository: dhanrajvermarepo.github.io
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# Personal info
+name: Dhanraj Verma
+title: Flutter developer
+email: dhanrajverma57@gmail.com
+cv   : "resume.pdf"
+#website: Your website (eg. https://google.com)(optional)
+
+# Social links
+#twitter_username: jekyllrb
+github_username:  dhanrajvermaRepo
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: dhanraj-verma-521601178
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.JPEG
+about_content: | # this will include new lines to allow paragraphs
+   I am a flutter developer, with experience developing hybrid mobile applications. I am fueled by my passion for understanding new technologies out there. I consider myself a ‘forever student,’ eager to both build on my academic foundations in computer science and technology and stay in tune with the technologies through continued coursework.
+   
+   I believe mindfulness in the workplace is key to success - a tenet I live out through my interests in yoga, meditation, gardening, and painting. Madison is currently working as flutter developer.
+
+# Projects Section
+# projects_title: Projects #(Use this to override about projects section title)
+
+# Experience Section
+# experience_title: Experience #(Use this to override about experience section title)
+
+# Education Section
+# education_title: Education #(Use this to override about education section title)
+
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+more_content: | # this will include new lines to allow paragraphs
+   **Interests**
+      - Story reading
+      - Movies
+      - Hill stations
+      - Natural sites
+      
+   **Skills**
+      - [Flutter](https://flutter.dev/)
+     - [Dart](https://dart.dev/)
+     - C, C++
+     - jekyll
+     - Markdown
+
+# Footer
+footer_show_references: true
 
 # Build settings
-theme: jekyll-theme-midnight
-plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
-github: [metadata]
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "makefile",
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
